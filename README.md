@@ -1,5 +1,8 @@
-# notes
+# Notes
 
+# Bash commands
+
+## Etc
 updatedb
 locate sbd.exe
 which sbd
@@ -14,6 +17,7 @@ netstat -antp | grep sshd
 
 systemctl enable/disable ssh
 
+## Commands and explanations
 
 grep "href=" index.html | cut -d "/" -f 3 | grep "\." | cut -d '"' -f 1 | sort -u
 grep "href=" index.html   (from index.html, extract all lines that contain "href=")
